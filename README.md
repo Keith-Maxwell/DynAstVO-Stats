@@ -8,6 +8,9 @@ Statistical analysis of the error model used for computing the trajectory of Nea
 
 ## Data
 
+The data file I'm working with can be downloaded [here](https://drive.google.com/file/d/1uY8VwV4MhbVuVYhi3YyVK3ulBWFqqPhD/view?usp=sharing).
+The documentation of this datafile can be found in the file [README_OBS_DYNASTVO](README_OBS_DYNASTVO.txt)
+
 ## References
 
 - Chesley, S. R., Baer, J., and Monet, D. G. (2010). Treatment of star catalog biases in asteroid astrometric observations. Icarus, 210:158–181.
