@@ -8,7 +8,7 @@ Statistical analysis of the error model used for computing the trajectory of Nea
 
 ## Data
 
-The data file I'm working with can be downloaded [here](https://drive.google.com/file/d/1uY8VwV4MhbVuVYhi3YyVK3ulBWFqqPhD/view?usp=sharing).
+The data file I'm working with can be downloaded [here](https://mega.nz/file/PIo1hLxC#uJ_MsFBDQrRrevUA0FSPN0M00bgvA8iV0XMQ1yIsdys).
 The documentation of this datafile can be found in the file [README_OBS_DYNASTVO](README_OBS_DYNASTVO.txt)
 
 ## References
