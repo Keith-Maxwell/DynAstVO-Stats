@@ -44,33 +44,3 @@ def readByChunks(file_name, cols, nrows):
         except pd.errors.EmptyDataError:  # there is nothing to read anymore
             break
     return df
-
-
-if __name__ == "__main__":
-
-    OScolnames = {'obs Type': 'category',
-                  'measure Type': 'category',
-                  'year': np.uint16,
-                  'month': np.uint8,
-                  'day': np.float64,
-                  'RA': np.float64,
-                  'DEC': np.float64,
-                  'Obs Code': 'category',
-                  'RA bias correction': np.float32,
-                  'DEC bias correction': np.float32,
-                  'RA precision': np.float64,
-                  'DEC precision': np.float64,
-                  'acceptance': 'bool',
-                  'catalog': 'category',
-                  'mag': np.float64,
-                  'nbr obs': np.float16,
-                  'random number': np.float64,
-                  'RA delta': np.float64,
-                  'DEC delta': np.float64,
-                  'xhi square': np.float64,
-                  'mag acceptance': np.float16,
-                  'mag delta': np.float64,
-                  'object number': 'category'}
-
-    data = readByChunks('Data\\OpticalSpaceData.txt', OScolnames, 500)
-    data.info()
