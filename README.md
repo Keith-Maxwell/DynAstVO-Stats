@@ -19,7 +19,7 @@ The documentation of this datafile can be found in the file [README_OBS_DYNASTVO
 - Farnocchia, D., Chesley, S. R., Chamberlin, A. B., and Tholen, D. J. (2015). Star catalog position and proper motion corrections in asteroid astrometry. Icarus, 245:94–111.
 - Veres, P., Farnocchia, D., Chesley, S.R., Chamberlin, A.B. 2017. Statistical analysis of astrometric errors for the most productive asteroid surveys. Icarus 296, 139.
 
-## dependancies
+## dependencies
 
 - python 3.8.3
   - [modules](requirements.txt)
