@@ -14,13 +14,24 @@ def cleanData(input_file: str = '.\\Data\\OMC20200621.txt',
         with open(OptSp_output_file, 'w') as OSfile:  # create the output files
             with open(Rad_output_file, 'w') as Rfile:
                 for line in tqdm(inputFile):  # navigate through the whole file, line by line
-                    if line.startswith('O') or line.startswith('S'):  # first character of optical or space observation
+                    if line.startswith(('O', 'S')):  # first character of optical or space observation
                         line = line.replace('*', ' ')
                         OSfile.write(line)  # copy the line in the new output file
-                    elif line.startswith('R') or line.startswith('V'):  # first character of radar observation
+                    elif line.startswith(('R', 'V')):  # first character of radar observation
                         line = line.replace('*', ' ')
                         Rfile.write(line)  # copy the line in the new output file
 
 
+def cleanNEODYS(input_file: str = ".\\Data\\NEODYS_sample.txt",
+                output_file: str = ".\\Data\\NEODYS_cleaned.txt") -> None:
+    with open(input_file, 'r') as inputFile:  # read the raw data
+        with open(output_file, 'w') as out:  # create the output files
+            for line in tqdm(inputFile):
+                if line.endswith((' 0 1\n', ' 1 1\n', ' 1 0\n', ' 1 1\n')):
+                    line = line.replace("E-", "e-")
+                    line = line.replace("F", " ")
+                    out.write(line)
+
+
 if __name__ == "__main__":
-    cleanData()
+    cleanNEODYS()
