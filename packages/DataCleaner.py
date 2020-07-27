@@ -1,9 +1,9 @@
 from tqdm import tqdm  # this module allows to display a progress bar
 
 
-def cleanData(input_file: str = '.\\Data\\OMC20200621.txt',
-              OptSp_output_file: str = '.\\Data\\OpticalSpaceData.txt',
-              Rad_output_file: str = '.\\Data\\RadarData.txt') -> None:
+def cleanData(input_file: str = r'.\Data\OMC20200621.txt',
+              OptSp_output_file: str = r'.\Data\\OpticalSpaceData.txt',
+              Rad_output_file: str = r'.\Data\RadarData.txt') -> None:
     ''' takes the original data file (input_file) and splits it in two different files :
         -   'OptSp_output_file' groups all optical observations from the ground
             as well as spatial observations, but does not keep the satellite position
@@ -22,8 +22,8 @@ def cleanData(input_file: str = '.\\Data\\OMC20200621.txt',
                         Rfile.write(line)  # copy the line in the new output file
 
 
-def cleanNEODYS(input_file: str = ".\\Data\\NEODYS_sample.txt",
-                output_file: str = ".\\Data\\NEODYS_cleaned.txt") -> None:
+def cleanNEODYS(input_file: str = r"Data\NEODYS_OBS_20200716.txt",
+                output_file: str = r".\Data\NEODYS_cleaned.txt") -> None:
     with open(input_file, 'r') as inputFile:  # read the raw data
         with open(output_file, 'w') as out:  # create the output files
             for line in tqdm(inputFile):
