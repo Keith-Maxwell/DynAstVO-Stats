@@ -129,7 +129,12 @@ dmypy.json
 
 # Data
 Data/
+*.csv
 
 # Markdown
 Visualisation_NEODYS_files/
+Visualisation_NEODYS.md
 Visualisation_DynAstVO_files/
+Visualisation_DynAstVO.md
+TODO.md
+
