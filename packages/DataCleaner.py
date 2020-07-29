@@ -22,7 +22,7 @@ def cleanData(input_file: str = r'.\Data\OMC20200621.txt',
                         Rfile.write(line)  # copy the line in the new output file
 
 
-def cleanNEODYS(input_file: str = r"Data\NEODYS_OBS_20200716.txt",
+def cleanNEODYS(input_file: str = r"Data\NEODYS_OBS_20200727.txt",
                 output_file: str = r".\Data\NEODYS_cleaned.txt") -> None:
     with open(input_file, 'r') as inputFile:  # read the raw data
         with open(output_file, 'w') as out:  # create the output files
