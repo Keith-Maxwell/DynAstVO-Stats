@@ -1,6 +1,6 @@
 # DynAstVO-Stats
 
-This is my ongoing work during a 2 month internship at [IMCCE](https://www.imcce.fr) (Institute of celestial mechanics and ephemeris calculations), department of the [Paris Observatory](https://www.observatoiredeparis.psl.eu/-imcce-.html).
+This is my ~~ongoing~~ work during a 2 month internship at [IMCCE](https://www.imcce.fr) (Institute of celestial mechanics and ephemeris calculations), department of the [Paris Observatory](https://www.observatoiredeparis.psl.eu/-imcce-.html).
 
 ## Goal
 
