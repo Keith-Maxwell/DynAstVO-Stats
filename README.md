@@ -11,6 +11,14 @@ Statistical analysis of the error model used for computing the trajectory of Nea
 The data file I'm working with can be downloaded [here](https://mega.nz/file/PIo1hLxC#uJ_MsFBDQrRrevUA0FSPN0M00bgvA8iV0XMQ1yIsdys).
 The documentation of this datafile can be found in the file [README_OBS_DYNASTVO](README_OBS_DYNASTVO.txt)
 
+## My work
+
+- The analysis of the DynAstVO database : [notebook](Visualisation_DynAstVO.ipynb)
+- Same analysis but for the NEODyS database, for comparison : [notebook](Visualisation_NEODYS.ipynb)
+- Statistics on the NEODyS accuracy by category of the observations : [notebook](observation_types.ipynb)
+- Discovery of the Healpix technology and maps for DynAstVO : [notebook](test_healpy.ipynb)
+
+
 ## References
 
 - Chesley, S. R., Baer, J., and Monet, D. G. (2010). Treatment of star catalog biases in asteroid astrometric observations. Icarus, 210:158–181.

@@ -1,3 +1,5 @@
+# adds readability to my code
+
 catalog_codes = {'a': 'USNO-A1.0',
                  'b': 'USNO-SA1.0',
                  'c': 'USNO-A2.0',
